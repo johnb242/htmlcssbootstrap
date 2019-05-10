@@ -27,4 +27,16 @@ public class homecontroller {
     public String bootstrap() {
         return "bootstrap";
     }
+    @RequestMapping("/janesmith")
+    public String janesmith() {
+        return "janesmith";
+    }
+    @RequestMapping("/philheather")
+    public String philheather() {
+        return "philheather";
+    }
+    @RequestMapping("/maryjones")
+    public String maryjones() {
+        return "maryjones";
+    }
 }
